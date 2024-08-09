@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size:x-large;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:blue;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul  {
+    padding: 20px;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 55px;
+
+  }
+  
+  nav ul li a {
+    color:#c8a2c8;
+    text-decoration:double;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  .project {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:#c8a2c8;
+
+  }
+  
+  h2 {
+    margin-top: 0;
+    color:#c8a2c8;
+  }
+
+    .imagem1 img{
+    width: 400px; /* Define a largura da imagem */
+    height: 400px; /* Define a altura da imagem */
+    border-radius: 50%; /* Define um raio de borda igual a 50% para criar um círculo */
+    object-fit: cover; /* Controla como a imagem se ajusta ao tamanho do contêiner */
+    float:right;
+    margin-right: 150px;
+    margin-top: -500px;
+  }
+
+  .imagem2 img{
+    width: 250px; /* Define a largura da imagem */
+    height: 250px; /* Define a altura da imagem */
+    border-radius: 50%;
+    float:right;
+    margin-right: 100px;
+    margin-top: -310px;
+  }
+
+  .imagem3 img{
+    width: 250px; /* Define a largura da imagem */
+    height: 250px; /* Define a altura da imagem */
+    border-radius: 50%;
+    float:right;
+    margin-right: 400px;
+    margin-top: -310px;
+  }
+    strong{
+        color:red;
+       
+    }
